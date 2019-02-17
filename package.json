@@ -1,0 +1,30 @@
+{
+  "name": "template-react-project",
+  "version": "1.0.0",
+  "description": "Plantilla para proyectos en react",
+  "main": "/src/server/serverHttp.js",
+  "scripts": {
+    "build-client": "webpack --mode production --colors --progress",
+    "start-server-client": "webpack-dev-server --mode development --open --colors --progress",
+    "build": "webpack --mode production --colors --progress",
+    "build:dev": "webpack --mode development --colors --progress",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Juan Contreras <jcontrerasmeneses@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcontrerasm/template-react-project"
+  },
+  "homepage": "https://github.com/jcontrerasm/template-react-project#readme",
+  "devDependencies": {
+    "babel-core": "6.26.2",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  }
+}
