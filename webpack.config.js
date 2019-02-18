@@ -56,7 +56,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/template.html',
       filename: 'index.html',
-      chunks: ['app']
+      chunks: ['app'],
+      favicon: './src/assets/images/favicon.ico'
     })
   ]
 }
