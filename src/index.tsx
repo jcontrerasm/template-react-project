@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import { App } from './views/index';
+import { App } from './views';
 
 render(
   <App/>,
