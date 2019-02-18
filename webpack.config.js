@@ -40,7 +40,7 @@ module.exports = {
       },
       {
         test: /\.(ttf|eot|woff2|mp3|mp4|xml|pdf)$/i,
-        use: 'file-loader?name=assets/fonts/[name].[ext]'
+        use: 'file-loader?name=assets/fonts/[name]-[hash:8].[ext]'
       },
       {
         test: /\.tsx?$/,
