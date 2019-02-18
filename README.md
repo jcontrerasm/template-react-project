@@ -2,8 +2,8 @@
 El presente proyecto contiene una proyecto plantilla de react js.
 
 ## Stack
-  * Js: React con typescript
-  * Styles: Style Components
+  * Components: React con typescript
+  * Styles: StyleComponents
   * Tests: Jest
 
 ## Instalación
