@@ -1,9 +1,10 @@
 import * as React from 'react';
+import { TitleWrapper } from './styled';
 
 interface Props {
-  totalFollowing: number;
+  text: string;
 }
 
-export const Title: React.SFC<Props> = ({ totalFollowing }) => (
-  <div>FOLLOWING {totalFollowing}</div>
+export const Title: React.SFC<Props> = ({ text }) => (
+  <TitleWrapper>{text}</TitleWrapper>
 )
