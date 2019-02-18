@@ -13,4 +13,4 @@ El presente proyecto contiene una proyecto plantilla de react js.
 - Ejecutar desde la raiz el comando `make start`
 
 ## Aplicación
-[Local URL]: http://localhost:8080
+[Local URL] http://localhost:8080
