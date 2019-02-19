@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Title component Render snapshot Render correctly 1`] = `"<h1 class=\\"sc-bdVaJa bkvOLf\\">hola</h1>"`;
