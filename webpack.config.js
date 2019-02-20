@@ -18,9 +18,9 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader'
-        }
+        use: [
+          'babel-loader'
+        ]
       },
       {
         test: /\.html$/,
@@ -45,9 +45,10 @@ module.exports = {
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'ts-loader'
-        }
+        use: [
+          'ts-loader',
+          'stylelint-custom-processor-loader'
+        ]
       }
     ]
   },
